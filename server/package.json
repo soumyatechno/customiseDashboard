@@ -1,0 +1,26 @@
+{
+  "name": "customisedashboard",
+  "version": "1.0.0",
+  "description": "A Customise Dashboard using node , express, Mysql and rest api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyatechno/customiseDashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumyatechno/customiseDashboard/issues"
+  },
+  "homepage": "https://github.com/soumyatechno/customiseDashboard#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3"
+  }
+}
