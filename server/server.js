@@ -2,11 +2,12 @@ import { db } from './config.js';
 import express from 'express';
 import bodyParser from 'body-parser';
 const app = express();
+import cors from 'cors';
 const PORT = 4000;
 
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
-
+app.use(cors());
 app.get('/', (req, res) => {
 	res.send('Hello World');
 });
